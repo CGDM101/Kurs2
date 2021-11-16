@@ -1,0 +1,1 @@
+﻿The Linq library is implemented as a set of extension methods on the IEnumerable<T> interface.
