@@ -1,0 +1,43 @@
+﻿--CREATE TABLE [dbo].[MetropolitanClub](
+--[Hårfärg][nvarchar](50) NULL,
+--[Transport][nvarchar](50) NULL,
+--[Kännetecken][nvarchar](50) NULL,
+--[Rumsnr][nvarchar](50) NULL,
+--[Namn][nvarchar](50) NULL
+--) ON [PRIMARY]
+
+
+DELETE FROM MetropolitanClub -- Radera allt. 
+-- (pga att:) INSERT INTO Läggs till för varje gång man exekverar!
+
+-- Sir Raymond Jasper bodde på rum 10
+INSERT INTO MetropolitanClub (Namn, Rumsnr) VALUES ('Raymond Jasper', '10'); 
+-- Mannen i rum 14 hade svart hår.
+INSERT INTO MetropolitanClub (Hårfärg, Rumsnr) VALUES ('Svart hår', '14');
+-- Antingen överste Woodley eller Sir Raymond bar pincené
+
+-- Mr Pope bar alltid ett fickur i guld.
+INSERT INTO MetropolitanClub (Namn, Kännetecken) VALUES ('Mr Pope', 'Fickur');
+-- En av de misstänkta sågs åka i en fyrhjulig hästdroska.
+INSERT INTO MetropolitanClub (Transport) VALUES ('Fyrhjulig hästdriska');
+-- Mannen med pincené har brunt hår.
+INSERT INTO MetropolitanClub (Hårfärg, Kännetecken) VALUES ('Brunt hår', 'Pincené'); 
+-- Mr Holman bar en klackring i rubin.
+INSERT INTO MetropolitanClub (Namn, Kännetecken) VALUES ('Mr Holman', 'Klackring'); 
+-- Mannen på rum 16 hade trasiga manschetter.
+INSERT INTO MetropolitanClub (Rumsnr, Kännetecken) VALUES ('16', 'Trasiga manschetter'); 
+-- Mr Holman bodde på rum 12.
+INSERT INTO MetropolitanClub (Namn, Rumsnr) VALUES ('Mr Holman', '12'); 
+-- Mannen med de trasiga manschetterna hade rött hår.
+INSERT INTO MetropolitanClub (Kännetecken, Hårfärg) VALUES ('Trasiga manschetter', 'Rött hår'); 
+-- Mannen på rum 12 hade grått hår.
+INSERT INTO MetropolitanClub (Rumsnr, Hårfärg) VALUES ('12', 'Grått hår'); 
+-- Mannen med fickuret bodde i rum 14.
+INSERT INTO MetropolitanClub (Rumsnr, Kännetecken) VALUES ('14', 'Fickur'); 
+-- Överste Woosley bodde i ett hörnrum.
+
+-- Mördaren hade brunt hår.
+INSERT INTO MetropolitanClub (Hårfärg) VALUES ('Brunt hår');
+
+
+SELECT * FROM MetropolitanClub
