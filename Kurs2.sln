@@ -15,6 +15,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAndSqlExercises", "CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dagbok", "Dagbok\Dagbok.csproj", "{C5593F04-6976-48A3-AAFB-179C46D0FDE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExercisesDesignPatterns", "ExercisesDesignPatterns", "{CFE8193E-BC8E-4CDE-B5D7-9D0FA1F31492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomtensLeksaksfabrik", "TomtensLeksaksfabrik\TomtensLeksaksfabrik.csproj", "{6CA30668-37E8-42A7-B4F6-8DED8669370C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionStringBuilder", "ConnectionStringBuilder\ConnectionStringBuilder.csproj", "{D31BF918-DD52-400E-B259-308C20DC773E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SantaVersusKrampus", "SantaVersusKrampus\SantaVersusKrampus.csproj", "{9521E772-830B-4C85-89E5-007C5A70B850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentCalculator", "FluentCalculator\FluentCalculator.csproj", "{1B533952-963B-4C1A-9DB5-3916EA10B312}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,12 +51,32 @@ Global
 		{C5593F04-6976-48A3-AAFB-179C46D0FDE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5593F04-6976-48A3-AAFB-179C46D0FDE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5593F04-6976-48A3-AAFB-179C46D0FDE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA30668-37E8-42A7-B4F6-8DED8669370C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA30668-37E8-42A7-B4F6-8DED8669370C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA30668-37E8-42A7-B4F6-8DED8669370C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA30668-37E8-42A7-B4F6-8DED8669370C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31BF918-DD52-400E-B259-308C20DC773E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31BF918-DD52-400E-B259-308C20DC773E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31BF918-DD52-400E-B259-308C20DC773E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31BF918-DD52-400E-B259-308C20DC773E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9521E772-830B-4C85-89E5-007C5A70B850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9521E772-830B-4C85-89E5-007C5A70B850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9521E772-830B-4C85-89E5-007C5A70B850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9521E772-830B-4C85-89E5-007C5A70B850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B533952-963B-4C1A-9DB5-3916EA10B312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B533952-963B-4C1A-9DB5-3916EA10B312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B533952-963B-4C1A-9DB5-3916EA10B312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B533952-963B-4C1A-9DB5-3916EA10B312}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{993BD66E-5C80-413C-8F49-9C37263A89F0} = {D11DCC85-8ECD-465B-9B7F-F1D9DC107B6E}
+		{6CA30668-37E8-42A7-B4F6-8DED8669370C} = {CFE8193E-BC8E-4CDE-B5D7-9D0FA1F31492}
+		{D31BF918-DD52-400E-B259-308C20DC773E} = {CFE8193E-BC8E-4CDE-B5D7-9D0FA1F31492}
+		{9521E772-830B-4C85-89E5-007C5A70B850} = {CFE8193E-BC8E-4CDE-B5D7-9D0FA1F31492}
+		{1B533952-963B-4C1A-9DB5-3916EA10B312} = {CFE8193E-BC8E-4CDE-B5D7-9D0FA1F31492}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F5367B-B3D5-4BC8-8B74-3C6B807A3643}
