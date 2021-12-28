@@ -5,7 +5,7 @@ namespace LiskovSubstitutionPrinciple
 {
     public class Cat 
     {
-        private string Sound { get; set; } = "Meeeeoooowwwww";
+        protected string Sound { get; set; } = "Meeeeoooowwwww";
         public virtual string Name { get; set; }
         public virtual string MakeSound() => $"{Name} is a nice {GetType().Name} who says {Sound}";
     }
@@ -32,7 +32,10 @@ namespace LiskovSubstitutionPrinciple
 
     public class Dog : Cat
     {
-        private string Sound = "Wooff";
+        public Dog()
+        {
+            Sound = "Wooff";
+        }
     }
     class Program
     {
