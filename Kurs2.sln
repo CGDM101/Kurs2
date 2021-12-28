@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SantaVersusKrampus", "Santa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentCalculator", "FluentCalculator\FluentCalculator.csproj", "{1B533952-963B-4C1A-9DB5-3916EA10B312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S.o.l.i.d.Exercises", "S.o.l.i.d.Exercises\S.o.l.i.d.Exercises.csproj", "{00713264-A41C-450E-B29E-CF43F3FA7B38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "S.o.l.i.d.Exercises\SingleResponsibilityPrinciple.csproj", "{00713264-A41C-450E-B29E-CF43F3FA7B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{F3A623DC-A7A9-41B2-833B-901CF9D041D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,7 @@ Global
 		{D31BF918-DD52-400E-B259-308C20DC773E} = {CFE8193E-BC8E-4CDE-B5D7-9D0FA1F31492}
 		{9521E772-830B-4C85-89E5-007C5A70B850} = {CFE8193E-BC8E-4CDE-B5D7-9D0FA1F31492}
 		{1B533952-963B-4C1A-9DB5-3916EA10B312} = {CFE8193E-BC8E-4CDE-B5D7-9D0FA1F31492}
+		{00713264-A41C-450E-B29E-CF43F3FA7B38} = {F3A623DC-A7A9-41B2-833B-901CF9D041D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F5367B-B3D5-4BC8-8B74-3C6B807A3643}

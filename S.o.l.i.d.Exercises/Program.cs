@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace S.o.l.i.d.Exercises
+namespace SingleResponsibilityPrinciple
 {
     // EJ SOLID:
     class Program
@@ -22,7 +22,7 @@ namespace S.o.l.i.d.Exercises
                 File.WriteAllText(filename, data);
             }
             // Plocka ut alla tal från texten:
-            var nums = new String(data.Where(Char.IsDigit).ToArray());
+            var nums = new string(data.Where(char.IsDigit).ToArray());
             // Omvandla det till en unsigned long för att vara säker på att den kan hantera enorma tal:
             ulong.TryParse(nums, out var value);
             // Omvandar num string till en char array  och adderar värdena i den:
@@ -46,7 +46,7 @@ namespace S.o.l.i.d.Exercises
 
     // SOLID:
     // Skapa en FileHandler och en NumberHandler:
-    public class FileHandler 
+    public class FileHandler
     {
         public string Filename { get; set; } = "MyFile.txt";
 
@@ -77,7 +77,7 @@ namespace S.o.l.i.d.Exercises
         }
     }
 
-    public class NumberHandler 
+    public class NumberHandler
     {
         public string Numbers { get; set; }
         public NumberHandler(string numbers)
@@ -87,7 +87,7 @@ namespace S.o.l.i.d.Exercises
 
         public string ExtractNumbers()
         {
-            return new string(Numbers.Where(Char.IsDigit).ToArray());
+            return new string(Numbers.Where(char.IsDigit).ToArray());
         }
 
         public ulong GetNumericValue()
