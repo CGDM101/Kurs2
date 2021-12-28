@@ -6,8 +6,8 @@ namespace LiskovSubstitutionPrinciple
     public class Cat 
     {
         private string Sound { get; set; } = "Meeeeoooowwwww";
-        public string Name { get; set; }
-        public string MakeSound() => $"{Name} is a nice {GetType().Name} who says {Sound}";
+        public virtual string Name { get; set; }
+        public virtual string MakeSound() => $"{Name} is a nice {GetType().Name} who says {Sound}";
     }
 
     public class PlayWithPets
