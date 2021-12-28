@@ -23,7 +23,7 @@ namespace DependencyInversionPrinciple
     {
         int CastSpell();
     }
-    
+
     public class Warrior : IBluntable
     {
         public int BluntAttack() => throw new NotImplementedException();
