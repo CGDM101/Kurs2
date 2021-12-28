@@ -41,8 +41,8 @@ namespace LiskovSubstitutionPrinciple
 
     public abstract class Animal
     {
-        protected string Sound = "grrr";
-        public virtual string Name { get; set; }
+        protected string Sound = "grrr"; // Protected är private för alla utom de som ärver.
+        public virtual string Name { get; set; } // Virtual får overridas.
         public virtual string MakeSound() => $"{Name} is a nice {GetType().Name} who says {Sound}";
 
     }
